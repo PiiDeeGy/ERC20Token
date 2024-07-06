@@ -21,7 +21,7 @@ contract NewToken is ERC20 {
     }
 
     // Transfer (any user)
-    function transferTokens(address to, uint256 amount) public returns (bool) {
+    function transfer(address to, uint256 amount) public override returns (bool) {
         return transfer(to, amount);
     }
 
