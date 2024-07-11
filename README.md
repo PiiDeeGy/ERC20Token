@@ -10,7 +10,7 @@ This repository contains my files for the Module 3 project in the ETH + AVAX Pro
 
 ## The Code
 
-###ERC20 Constructor
+### ERC20 Constructor
 The constructor function initializes the NewToken contract by calling the ERC20 constructor with the name "NewTokenName" and the symbol "NewTokenSymbol". It also sets the ownerAddress to the address of the account that deploys the contract (msg.sender), designating this account as the owner of the contract.
 
 ### onlyOwner Modifier
